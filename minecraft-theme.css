@@ -1,0 +1,74 @@
+/* General styling */
+body {
+    font-family: 'Pixel', sans-serif; /* You might want a pixel font for authenticity. */
+    background-color: #7bbf6a; /* Grass block top color. */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container and Section Styling */
+header, section, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #564d2e; /* Dirt block color. */
+    border: 4px solid #7c9f35; /* Grass block side color. */
+    border-radius: 8px;
+}
+
+/* Text and Header Styling */
+h1, h2 {
+    color: #ffffff; /* White text on dirt background for contrast. */
+    border-bottom: 2px dashed #7c9f35;
+    padding-bottom: 10px;
+}
+
+p, li, footer p {
+    color: #eeeeee; /* Lighter text for better readability on dirt. */
+}
+
+a {
+    color: #00aa00; /* Bright green, similar to grass. */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #7c9f35; 
+    border-radius: 4px;
+}
+
+/* List Styling */
+ol, ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ol > li, ul > li {
+    margin-bottom: 10px;
+}
+
+ol > li::before {
+    content: '▶'; /* Arrow for ordered list items. */
+    color: #7c9f35;
+    margin-right: 10px;
+}
+
+ul > li::before {
+    content: '■'; /* Square for unordered list items. */
+    color: #7c9f35;
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
